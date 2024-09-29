@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE499AF32C836BE400BDB3C5 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499AF22C836BE400BDB3C5 /* Posts.swift */; };
+		EE499AF52C836C6600BDB3C5 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499AF42C836C6600BDB3C5 /* Posts.swift */; };
+		EE499AF72C836E2A00BDB3C5 /* AddPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE499AF62C836E2900BDB3C5 /* AddPostViewModel.swift */; };
+		EE80DB5C2C4B27D3001DC484 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB5B2C4B27D3001DC484 /* ProfileView.swift */; };
+		EEB1BB222C2855EA007AA150 /* LyfeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB212C2855EA007AA150 /* LyfeApp.swift */; };
+		EEB1BB242C2855EA007AA150 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB232C2855EA007AA150 /* ContentView.swift */; };
+		EEB1BB262C2855ED007AA150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BB252C2855ED007AA150 /* Assets.xcassets */; };
+		EEB1BB292C2855ED007AA150 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BB282C2855ED007AA150 /* Preview Assets.xcassets */; };
+		EEB1BB3A2C2856ED007AA150 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB392C2856ED007AA150 /* SplashView.swift */; };
+		EEB1BB3D2C285716007AA150 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB3C2C285716007AA150 /* Color.swift */; };
+		EEB1BB3F2C285789007AA150 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BB3E2C285789007AA150 /* Roboto-Bold.ttf */; };
+		EEB1BB412C285791007AA150 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BB402C285790007AA150 /* Roboto-Medium.ttf */; };
+		EEB1BB432C2857A3007AA150 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB1BB422C2857A3007AA150 /* Roboto-Regular.ttf */; };
+		EEB1BB462C285877007AA150 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB452C285877007AA150 /* AuthView.swift */; };
+		EEB1BB482C2858A8007AA150 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB472C2858A8007AA150 /* HomeView.swift */; };
+		EEB1BB4C2C285916007AA150 /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB4B2C285916007AA150 /* ApiData.swift */; };
+		EEB1BB512C285965007AA150 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB502C285965007AA150 /* AuthApi.swift */; };
+		EEB1BB542C285D18007AA150 /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB532C285D18007AA150 /* AuthData.swift */; };
+		EEB1BB562C285D8E007AA150 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB552C285D8E007AA150 /* BaseModel.swift */; };
+		EEB1BB582C285F21007AA150 /* AuthHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB572C285F21007AA150 /* AuthHomeView.swift */; };
+		EEB1BB5A2C286192007AA150 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB592C286192007AA150 /* RegisterView.swift */; };
+		EEB1BB5C2C2863D2007AA150 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB5B2C2863D2007AA150 /* View.swift */; };
+		EEB1BB5F2C28646E007AA150 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB5E2C28646E007AA150 /* AuthViewModel.swift */; };
+		EEB1BB622C286B5A007AA150 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB612C286B5A007AA150 /* PostsListView.swift */; };
+		EEB1BB642C2879CF007AA150 /* FloatingActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB632C2879CF007AA150 /* FloatingActionButtonView.swift */; };
+		EEB1BB662C287AB4007AA150 /* AddPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1BB652C287AB4007AA150 /* AddPostView.swift */; };
+		EEF1DB562CA9DA9F0016CFC9 /* NavigationDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1DB552CA9DA9F0016CFC9 /* NavigationDrawer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE499AF22C836BE400BDB3C5 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		EE499AF42C836C6600BDB3C5 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		EE499AF62C836E2900BDB3C5 /* AddPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewModel.swift; sourceTree = "<group>"; };
+		EE80DB5B2C4B27D3001DC484 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EEB1BB1E2C2855EA007AA150 /* Lyfe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyfe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB1BB212C2855EA007AA150 /* LyfeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyfeApp.swift; sourceTree = "<group>"; };
+		EEB1BB232C2855EA007AA150 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEB1BB252C2855ED007AA150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB1BB282C2855ED007AA150 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB1BB392C2856ED007AA150 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		EEB1BB3C2C285716007AA150 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		EEB1BB3E2C285789007AA150 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		EEB1BB402C285790007AA150 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		EEB1BB422C2857A3007AA150 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EEB1BB442C2857AC007AA150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EEB1BB452C285877007AA150 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		EEB1BB472C2858A8007AA150 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEB1BB4B2C285916007AA150 /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
+		EEB1BB502C285965007AA150 /* AuthApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		EEB1BB532C285D18007AA150 /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		EEB1BB552C285D8E007AA150 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		EEB1BB572C285F21007AA150 /* AuthHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHomeView.swift; sourceTree = "<group>"; };
+		EEB1BB592C286192007AA150 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EEB1BB5B2C2863D2007AA150 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		EEB1BB5E2C28646E007AA150 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		EEB1BB612C286B5A007AA150 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
+		EEB1BB632C2879CF007AA150 /* FloatingActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButtonView.swift; sourceTree = "<group>"; };
+		EEB1BB652C287AB4007AA150 /* AddPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostView.swift; sourceTree = "<group>"; };
+		EEF1DB552CA9DA9F0016CFC9 /* NavigationDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB1BB1B2C2855EA007AA150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE499AF12C836BD600BDB3C5 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				EE499AF22C836BE400BDB3C5 /* Posts.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		EE80DB5A2C4B27BF001DC484 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB5B2C4B27D3001DC484 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EEB1BB152C2855EA007AA150 = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB202C2855EA007AA150 /* Lyfe */,
+				EEB1BB1F2C2855EA007AA150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB1BB1F2C2855EA007AA150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB1E2C2855EA007AA150 /* Lyfe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB1BB202C2855EA007AA150 /* Lyfe */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB442C2857AC007AA150 /* Info.plist */,
+				EEB1BB3E2C285789007AA150 /* Roboto-Bold.ttf */,
+				EEB1BB402C285790007AA150 /* Roboto-Medium.ttf */,
+				EEB1BB422C2857A3007AA150 /* Roboto-Regular.ttf */,
+				EEB1BB3B2C28570F007AA150 /* Ext */,
+				EEB1BB322C2856A0007AA150 /* ViewModel */,
+				EEB1BB312C28569C007AA150 /* Data */,
+				EEB1BB302C285697007AA150 /* Components */,
+				EEB1BB2F2C28568F007AA150 /* Views */,
+				EEB1BB212C2855EA007AA150 /* LyfeApp.swift */,
+				EEB1BB232C2855EA007AA150 /* ContentView.swift */,
+				EEB1BB252C2855ED007AA150 /* Assets.xcassets */,
+				EEB1BB272C2855ED007AA150 /* Preview Content */,
+			);
+			path = Lyfe;
+			sourceTree = "<group>";
+		};
+		EEB1BB272C2855ED007AA150 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB282C2855ED007AA150 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEB1BB2F2C28568F007AA150 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB5A2C4B27BF001DC484 /* Profile */,
+				EEB1BB382C2856E3007AA150 /* Splash */,
+				EEB1BB362C2856B5007AA150 /* Posts */,
+				EEB1BB352C2856B1007AA150 /* Home */,
+				EEB1BB342C2856AA007AA150 /* Register */,
+				EEB1BB332C2856A5007AA150 /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EEB1BB302C285697007AA150 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB632C2879CF007AA150 /* FloatingActionButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EEB1BB312C28569C007AA150 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB522C285C0C007AA150 /* Model */,
+				EEB1BB4A2C28590E007AA150 /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EEB1BB322C2856A0007AA150 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB5D2C286465007AA150 /* Auth */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEB1BB332C2856A5007AA150 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB452C285877007AA150 /* AuthView.swift */,
+				EEB1BB572C285F21007AA150 /* AuthHomeView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EEB1BB342C2856AA007AA150 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB592C286192007AA150 /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		EEB1BB352C2856B1007AA150 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1DB542CA9DA290016CFC9 /* New Group */,
+				EEB1BB472C2858A8007AA150 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EEB1BB362C2856B5007AA150 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB602C286B50007AA150 /* List */,
+				EEB1BB372C2856B9007AA150 /* Add */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		EEB1BB372C2856B9007AA150 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB652C287AB4007AA150 /* AddPostView.swift */,
+				EE499AF62C836E2900BDB3C5 /* AddPostViewModel.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		EEB1BB382C2856E3007AA150 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB392C2856ED007AA150 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		EEB1BB3B2C28570F007AA150 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB3C2C285716007AA150 /* Color.swift */,
+				EEB1BB5B2C2863D2007AA150 /* View.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		EEB1BB4A2C28590E007AA150 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				EE499AF12C836BD600BDB3C5 /* Posts */,
+				EEB1BB4F2C28595A007AA150 /* Auth */,
+				EEB1BB4B2C285916007AA150 /* ApiData.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		EEB1BB4F2C28595A007AA150 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB502C285965007AA150 /* AuthApi.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EEB1BB522C285C0C007AA150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB532C285D18007AA150 /* AuthData.swift */,
+				EEB1BB552C285D8E007AA150 /* BaseModel.swift */,
+				EE499AF42C836C6600BDB3C5 /* Posts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEB1BB5D2C286465007AA150 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB5E2C28646E007AA150 /* AuthViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		EEB1BB602C286B50007AA150 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1BB612C286B5A007AA150 /* PostsListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		EEF1DB542CA9DA290016CFC9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1DB552CA9DA9F0016CFC9 /* NavigationDrawer.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB1BB1D2C2855EA007AA150 /* Lyfe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB1BB2C2C2855ED007AA150 /* Build configuration list for PBXNativeTarget "Lyfe" */;
+			buildPhases = (
+				EEB1BB1A2C2855EA007AA150 /* Sources */,
+				EEB1BB1B2C2855EA007AA150 /* Frameworks */,
+				EEB1BB1C2C2855EA007AA150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyfe;
+			productName = Lyfe;
+			productReference = EEB1BB1E2C2855EA007AA150 /* Lyfe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB1BB162C2855EA007AA150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EEB1BB1D2C2855EA007AA150 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EEB1BB192C2855EA007AA150 /* Build configuration list for PBXProject "Lyfe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB1BB152C2855EA007AA150;
+			productRefGroup = EEB1BB1F2C2855EA007AA150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB1BB1D2C2855EA007AA150 /* Lyfe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB1BB1C2C2855EA007AA150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB1BB412C285791007AA150 /* Roboto-Medium.ttf in Resources */,
+				EEB1BB292C2855ED007AA150 /* Preview Assets.xcassets in Resources */,
+				EEB1BB432C2857A3007AA150 /* Roboto-Regular.ttf in Resources */,
+				EEB1BB262C2855ED007AA150 /* Assets.xcassets in Resources */,
+				EEB1BB3F2C285789007AA150 /* Roboto-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB1BB1A2C2855EA007AA150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB1BB5C2C2863D2007AA150 /* View.swift in Sources */,
+				EEB1BB242C2855EA007AA150 /* ContentView.swift in Sources */,
+				EEB1BB642C2879CF007AA150 /* FloatingActionButtonView.swift in Sources */,
+				EEB1BB462C285877007AA150 /* AuthView.swift in Sources */,
+				EEB1BB3D2C285716007AA150 /* Color.swift in Sources */,
+				EEB1BB482C2858A8007AA150 /* HomeView.swift in Sources */,
+				EEF1DB562CA9DA9F0016CFC9 /* NavigationDrawer.swift in Sources */,
+				EEB1BB562C285D8E007AA150 /* BaseModel.swift in Sources */,
+				EE499AF52C836C6600BDB3C5 /* Posts.swift in Sources */,
+				EEB1BB582C285F21007AA150 /* AuthHomeView.swift in Sources */,
+				EEB1BB542C285D18007AA150 /* AuthData.swift in Sources */,
+				EEB1BB622C286B5A007AA150 /* PostsListView.swift in Sources */,
+				EE80DB5C2C4B27D3001DC484 /* ProfileView.swift in Sources */,
+				EEB1BB512C285965007AA150 /* AuthApi.swift in Sources */,
+				EE499AF72C836E2A00BDB3C5 /* AddPostViewModel.swift in Sources */,
+				EEB1BB222C2855EA007AA150 /* LyfeApp.swift in Sources */,
+				EE499AF32C836BE400BDB3C5 /* Posts.swift in Sources */,
+				EEB1BB5F2C28646E007AA150 /* AuthViewModel.swift in Sources */,
+				EEB1BB5A2C286192007AA150 /* RegisterView.swift in Sources */,
+				EEB1BB662C287AB4007AA150 /* AddPostView.swift in Sources */,
+				EEB1BB3A2C2856ED007AA150 /* SplashView.swift in Sources */,
+				EEB1BB4C2C285916007AA150 /* ApiData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEB1BB2A2C2855ED007AA150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB1BB2B2C2855ED007AA150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB1BB2D2C2855ED007AA150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lyfe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lyfe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Life;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyfeapp.Lyfe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB1BB2E2C2855ED007AA150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lyfe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lyfe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Life;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyfeapp.Lyfe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB1BB192C2855EA007AA150 /* Build configuration list for PBXProject "Lyfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1BB2A2C2855ED007AA150 /* Debug */,
+				EEB1BB2B2C2855ED007AA150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB1BB2C2C2855ED007AA150 /* Build configuration list for PBXNativeTarget "Lyfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1BB2D2C2855ED007AA150 /* Debug */,
+				EEB1BB2E2C2855ED007AA150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB1BB162C2855EA007AA150 /* Project object */;
+}
